@@ -1,0 +1,12 @@
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.buttons li {
+	width: 123px;
+	height: 32px;
+	display: inline-block;
+	cursor: pointer;
+}

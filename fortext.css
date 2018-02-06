@@ -1,0 +1,14 @@
+body {
+	background: #ccc;
+	font-family: Arial; 
+	font-size: 22px;
+	font-weight: bolder;
+	text-decoration: overline;
+	text-transform: capitalize;
+	text-align: justify;
+	text-indent: 30px;
+	line-height: 40px;
+	word-spacing: 10px;
+	letter-spacing: 3px;
+	text-shadow: 0 1px 0 #eee, 3px, 3px, 3px, #000;
+}

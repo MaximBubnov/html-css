@@ -1,0 +1,38 @@
+body {
+	font : Arial;
+	margin: 0;
+}
+
+.container {
+	background: #999;
+	display: block;
+	width: 200px;
+	height: 100px;
+	margin: 80px;
+	position: relative;
+
+}
+
+a{
+
+	width: 300px;
+	height: 100px;
+	background: #888;
+	display: none;
+	padding: 10px;
+}
+.container-inner {
+	background: #ccc;
+	margin: 10px;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+
+}
+
+.con {
+	background: #ccc;
+	width: 300px;
+	height: 100px;
+	overflow: auto;
+}

@@ -1,0 +1,35 @@
+ <table width = "300" height = "100" border="3" cellspacing = "10" cellpadding = "20"
+               bgcolor = "#ewedawd">
+            <tr> 
+               <th colspan="2">Heding</th>
+               <th>Heding</th>
+               
+            </tr>
+            
+            <tr>
+                <td rowspan="2">Content</td>
+                <td>Content</td>
+                <td>Content</td>    
+            </tr>
+            
+             <tr>
+                
+                <td>Content</td>
+                <td>Content</td>   
+            </tr>
+        </table>
+
+width = "300" height = "100" - ширина, высота таблицы (или €чеек)
+border="3" - обрамление таблицы (кра€)
+cellspacing = "10" cellpadding = "20" - это св€зано с отсутпом содержимого в €чейке таблицы
+bgcolor = "#ewedawd" - цвет таблицы
+
+<tr>  </tr> - р€д таблицы
+
+<th>Heding</th> - заголовок (будет жирным)
+<th colspan="2">Heding</th> - обьединение двух €чеек (по горизонтали)
+
+<td>Content</td> - обычна€ €чейка
+<td rowspan="2">Content</td> - обьединие двух €чеек (по вертикали)
+
+

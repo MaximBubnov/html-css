@@ -1,0 +1,31 @@
+body {
+	font-family: Verdana;
+	font-size: 15px;
+	color: #333;
+	background: #f3f3f3;
+}
+
+a {
+	color: #cb2c2c;
+	text-decoration: none;
+}
+ul.list {
+	color: green;
+}
+
+ul *{
+	border: 1px solid black;
+}
+
+:link {
+	border-bottom: 1px dashed #444;
+}
+
+a:hover {
+	background: gray;
+}
+
+h4::before {
+	content: "Go to fuck";
+	font-size: 17px;
+}

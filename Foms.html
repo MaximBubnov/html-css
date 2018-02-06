@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Формы</title>
+</head>
+<body>
+
+	<form action="page.html" method="POST" autocomplete="on">
+	<h1>Инпуты (различные формы)</h1>
+
+	<h2>Текстовы инпуты, в которых можно писать одну строку</h2>
+
+	Текстовое поле: <input type="text" autocomplete="on" maxlength="5" placeholder="Ваше имя"> <br>
+	Поле-пароль: <input type="password" tabindex="1"> <br>
+	Поле для e-mail: <input type="email" tabindex="3"> <br>
+	Поле для URL: <input type="url" readonly tabindex="2"> <br>
+	Поле для поиска: <input type="search" autofocus> <br>
+	Поле для телефона: <input type="tel" pattern="\\@"> <br>
+
+	<h2>Инпуты, которые не содержат ввода текста</h2>
+
+	Чекбокс 1: <input type="checkbox"> <br>
+	Чекбокс 2: <input type="checkbox" checked> <br>
+	Цвет: <input type="color"> <br>
+	Файл : <input type="file" accept="image/jpeg, png" multiple> <br>
+	Спрятанное поле: <input type="hidden"> <br>
+	Числовое поле: <input type="number"> <br>
+	Радио - кнопка 1: <input type="radio" name="c1"> <br>
+	Радио - кнопка 2: <input type="radio" name="c1"> <br>
+	Радио - кнопка 3: <input type="radio" name="c1"> <br>
+	Ввод даты без времени: <input type="date"> <br>
+	Ввод даты с временем : <input type="datetime"> <br>
+	Поле - диапозон: <input type="range" min="0" max="1000" step="100"> <br>
+	контроль ввода даты: <input type="datetimelocal"> <br>
+	Ввод месяца: <input type="month"> <br>
+	Ввод времени: <input type="time"> <br>
+	Ввод недели : <input type="week"> <br>
+
+	<h2>Инпуты кнопки</h2>
+
+	Кнопка без поведения: <input type="button"> <br>
+	Граффическая кнопка отправить : <input type="image" alt="No image found"> <br>
+	Кнопка для очищения формы: <input type="reset"> <br>
+	Кнопка для отправки формы: <input type="submit"> <br>
+	</form>
+
+	<h2>Поле с автоматическим поиском-помощником</h2>
+
+	<form action="page.html" method="POST" autocomplete="on">
+		<input type="text" name="myName" placeholder="Вашу имя :" list="nameList">
+		<datalist id="nameList">
+			<option value="Никита">
+			<option value="Василий">
+			<option value="Максим">
+		</datalist>
+	</form>
+
+	<h2>Поле с рамкой и отправкой</h2>
+	<form action="page.html" method="POST" autocomplete="on">
+		<fieldset disabled>
+			<legend>Title</legend>
+			<input type="text"> <br>
+			<input type="submit">
+		</fieldset>
+	</form>
+
+	<h2>Типо лист</h2>
+
+	<form action="page.html" method="POST" autocomplete="on">
+		<select name="" id="">
+			<option disabled>Привет</option>
+			<option>Чао</option>
+			<option>Пока</option>
+
+		</select>
+	</form>
+	
+	<h2>Текст ариа TEXTAREA</h2>
+
+	<form action="page.html" method="POST" autocomplete="on">
+		<textarea name="" id="" cols="30" rows="10" wrap="soft">
+			
+		</textarea>
+	</form>
+</body>
+</html>
